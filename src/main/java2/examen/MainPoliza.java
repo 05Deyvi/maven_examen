@@ -126,9 +126,19 @@ public class MainPoliza extends Poliza {
               }else{
             	  System.out.println("no se encuentra en la base de datos");
             	  
-            	  
+            	  break;
               }
-
+			case "3":
+				System.out.println("ingrese codigo de poliza");
+	              String codigo4 = teclado.nextLine();
+	              boolean resultado2 = codigoPoliza.equals(codigo4);
+	              if(resultado2==true) {
+	            	  
+	            	  
+	              }else {
+	            	  System.out.println("no se encuentra en la base de datos");
+	              }
+	              break;
 			}
 		} while (!opcion.equals("3"));
 	}
