@@ -3,10 +3,10 @@ package examen;
 public class Poliza {
 	
 	protected static String nombre;
-	private String descripcion;
-	private String anioVigencia;
-	private String codigoPoliza;
-	private int valorPoliza;
+	protected static String descripcion;
+	protected static String anioVigencia;
+	protected static String codigoPoliza;
+	protected static int valorPoliza;
 	public String getNombre() {
 		return nombre;
 	}
