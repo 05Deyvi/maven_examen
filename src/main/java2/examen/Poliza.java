@@ -2,7 +2,7 @@ package examen;
 
 public class Poliza {
 	
-	private String nombre;
+	protected static String nombre;
 	private String descripcion;
 	private String anioVigencia;
 	private String codigoPoliza;
